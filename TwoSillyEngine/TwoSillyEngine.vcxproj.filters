@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Clipper">
+      <UniqueIdentifier>{b903e19f-245b-47d6-b1b7-3493292d54f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\modeFile">
+      <UniqueIdentifier>{bbdc26a0-7b8b-4eb2-951e-bf104f6276ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\tool">
+      <UniqueIdentifier>{4e2c55fd-c08f-4618-84b9-80445b9b2caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{68d0f4ac-7136-4906-aa21-b31da3f4ec2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{c0f49c83-d7b3-4944-a8bd-2b943d60b22a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libs\clipper\clipper.cpp">
+      <Filter>资源文件\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\polygon.cpp">
+      <Filter>头文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="modelFile\modelFile.cpp">
+      <Filter>资源文件\modeFile</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\logoutput.cpp">
+      <Filter>资源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\PointMatrix.cpp">
+      <Filter>头文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\gettime.cpp">
+      <Filter>资源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Config.cpp">
+      <Filter>头文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\socket.cpp">
+      <Filter>资源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bridge.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\optimizedModel.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\polygonOptimizer.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timeEstimate.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\layerPart.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slicer.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skirt.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\support.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\skin.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\raft.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inset.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\infill.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pathOrderOptimizer.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\comb.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gcodeExport.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Processor.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Beegive.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\function.cpp">
+      <Filter>资源文件\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\clipper\clipper.hpp">
+      <Filter>资源文件\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\polygon.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\intpoint.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="modelFile\modelFile.h">
+      <Filter>资源文件\modeFile</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\floatpoint.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\logoutput.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\settings.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\string.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\PointMatrix.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Config.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\gettime.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\socket.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bridge.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sliceDataStorage.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SupportDataStorage.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\optimizedModel.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\polygonOptimizer.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timeEstimate.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layerPart.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\slicer.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skirt.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\support.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\skin.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\raft.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\inset.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\infill.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\multiVolumes.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pathOrderOptimizer.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\comb.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gcodeExport.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Processor.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Beegive.h">
+      <Filter>源文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\function.h">
+      <Filter>资源文件\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

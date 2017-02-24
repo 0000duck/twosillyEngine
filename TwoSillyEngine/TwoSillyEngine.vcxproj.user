@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-p -v -o a八骏图浮雕笔筒.gcode Untitled.stl</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-p -v -o 八骏图浮雕笔筒.gcode 过杆.stl </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerEnvironment>__WIN32</LocalDebuggerEnvironment>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments> -p -v -s initialSpeedupLayers=4 -s minimalFeedrate=10 -s preSwitchExtruderCode= -s supportExtrusionWidth=600 -s supportXYDistance=700 -s insetXSpeed=50 -s retractionZHop=0 -s extruderOffset[3].X=0 -s extruderOffset[3].Y=0 -s gcodeFlavor=0 -s postSwitchExtruderCode= -s retractionSpeed=40 -s retractionPrimeSpeed=30 -s filamentFlow=100 -s infillOverlap=15 -s inset0Speed=50 -s coolHeadLift=0 -s extrusionWidth=400 -s upSkinCount=6 -s initialLayerSpeed=20 -s minimalLayerTimeFanSpeedMin=2000 -s minimalLayerTime=5 -s infillSpeed=50 -s supportExtruder=-1 -s fanSpeedMax=100 -s supportType=1 -s enableCombing=1 -s fanSpeedMin=100 -s supportZDistance=150 -s supportOnBuildplateOnly=0 -s filamentDiameter=1128 -s initialLayerThickness=300 -s supportAngle=60 -s fanFullOnLayerNr=2 -s extruderOffset[1].X=18000 -s extruderOffset[1].Y=0 -s layerThickness=100 -s endCode=M25 -s minimalExtrusionBeforeRetraction=20 -s retractionMinimalDistance=1500 -s skirtMinLength=150000 -s retractionAmount=4500 -s retractionPrimeAmount=0 -s skinSpeed=50 -s skirtLineCount=1 -s startCode= -s skirtDistance=0 -s extruderOffset[2].Y=0 -s extruderOffset[2].X=0 -s printSpeed=50 -s fixHorrible=1 -s layer0extrusionWidth=400 -s moveSpeed=150 -s supportLineDistance=2666 -s retractionAmountExtruderSwitch=16500 -s sparseInfillLineDistance=2000 -s insetCount=2 -s downSkinCount=6 -s multiVolumeOverlap=150 -s posx=115000 -s posy=112500 -g 98541 -o "ReleaseX64.gcode" $</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments> -p -v -s initialSpeedupLayers=4 -s minimalFeedrate=10 -s preSwitchExtruderCode= -s supportExtrusionWidth=600 -s supportXYDistance=700 -s insetXSpeed=50 -s retractionZHop=0 -s extruderOffset[3].X=0 -s extruderOffset[3].Y=0 -s gcodeFlavor=0 -s postSwitchExtruderCode= -s retractionSpeed=40 -s retractionPrimeSpeed=30 -s filamentFlow=100 -s infillOverlap=15 -s inset0Speed=50 -s coolHeadLift=0 -s extrusionWidth=400 -s upSkinCount=6 -s initialLayerSpeed=20 -s minimalLayerTimeFanSpeedMin=2000 -s minimalLayerTime=5 -s infillSpeed=50 -s supportExtruder=-1 -s fanSpeedMax=100 -s supportType=1 -s enableCombing=1 -s fanSpeedMin=100 -s supportZDistance=150 -s supportOnBuildplateOnly=0 -s filamentDiameter=1128 -s initialLayerThickness=300 -s supportAngle=60 -s fanFullOnLayerNr=2 -s extruderOffset[1].X=18000 -s extruderOffset[1].Y=0 -s layerThickness=100 -s endCode=M25 -s minimalExtrusionBeforeRetraction=20 -s retractionMinimalDistance=1500 -s skirtMinLength=150000 -s retractionAmount=4500 -s retractionPrimeAmount=0 -s skinSpeed=50 -s skirtLineCount=1 -s startCode= -s skirtDistance=0 -s extruderOffset[2].Y=0 -s extruderOffset[2].X=0 -s printSpeed=50 -s fixHorrible=1 -s layer0extrusionWidth=400 -s moveSpeed=150 -s supportLineDistance=2666 -s retractionAmountExtruderSwitch=16500 -s sparseInfillLineDistance=2000 -s insetCount=2 -s downSkinCount=6 -s multiVolumeOverlap=150 -s posx=115000 -s posy=112500 -g 98542 -o "ReleaseX64.gcode" $</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
